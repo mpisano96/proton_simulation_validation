@@ -42,7 +42,7 @@ function Run()
 
 		echo ""
 		echo "CMSSW status:"
-		git st
+		git status
 
 		echo ""
 		echo "--------------------------------------------------"
@@ -55,7 +55,7 @@ function Run()
 
 		echo ""
 		echo "This repo history:"
-		git st
+		git status
 	) > "data/$version/info"
 
 	# initiate submission script
